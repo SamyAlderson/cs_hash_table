@@ -1,9 +1,13 @@
+// This is a comment explaining the purpose of the file
 #include "table.h"
 
-int hash_table_delete(int key, HashTable* table) {
-    // implementation remains the same
+// Function to hash a key
+int hash(int key) {
+    return key % 10;
 }
 
-void hash_table_delete(HashTable* table) {
-    // implementation remains the same
+// Function to insert a key-value pair into the table
+void insert(int key, int value) {
+    // Call the insert function from table.c
+    insert(key, value);
 }
