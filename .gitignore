@@ -1,23 +1,36 @@
-# ignore node_modules and yarn cache
+# Ignore node_modules and yarn.lock
 node_modules/
 yarn.lock
-yarn/nx
-yarn/cache
 
-# ignore IDE files
+# Ignore IDE files
 .idea/
 .vscode/
-*.iml
 
-# ignore build and dist folders
+# Ignore Python cache
+__pycache__/
+
+# Ignore build artifacts
 build/
-dist/
 
-# ignore coverage folder
-coverage/
+# Ignore Docker files
+docker/
 
-# ignore pyc files
-*.pyc
+# Ignore env files
+.env
+.env.example
 
-# ignore gitignore itself
-!.gitignore
+# Ignore logs
+logs/
+
+# Ignore secrets
+secrets.json
+
+# Ignore test coverage
+coverage.xml
+coverage.html
+
+# Ignore pip cache
+pip-wheel-cache/
+
+# Ignore macOS specific files
+.DS_Store
